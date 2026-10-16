@@ -1,5 +1,3 @@
 <resources>
-
-    <string name="skill_web">Web</string>
-
+    <string name="btn_proceed">Proceed</string>
 </resources>
