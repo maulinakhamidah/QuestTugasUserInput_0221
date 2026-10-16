@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">QuestTugasUserInput_0221</string>
+
+    <string name="form_title">Form Biodata</string>
 
 </resources>
