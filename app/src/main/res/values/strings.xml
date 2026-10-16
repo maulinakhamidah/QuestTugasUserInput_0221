@@ -1,5 +1,5 @@
 <resources>
 
-    <string name="form_subtitle">Silahkan isi biodata Anda dibawah ini !!!</string>
+    <string name="label_pilih_skill">Pilih Skill Anda :</string>
 
 </resources>
