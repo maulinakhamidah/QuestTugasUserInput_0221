@@ -1,5 +1,4 @@
 <resources>
 
-    <color name="button_text">#9E9E9E</color>
-
+    <color name="field_border">#BDBDBD</color>
 </resources>
