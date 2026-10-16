@@ -1,4 +1,5 @@
 <resources>
-    <color name="purple_header">#4A148C</color>
+
+    <color name="card_background">#FFFFFF</color>
 
 </resources>
