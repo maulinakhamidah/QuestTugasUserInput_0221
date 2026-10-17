@@ -38,6 +38,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun UserInputScreen() {
 
-    var isAndroidChecked by remember { mutableStateOf(false) }
+    var isUiUxChecked by remember { mutableStateOf(false) }
 
 
