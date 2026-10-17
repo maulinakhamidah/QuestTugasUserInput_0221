@@ -34,4 +34,9 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-}
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun UserInputScreen() {
+    var namaDepan by remember { mutableStateOf("") }
+
+
