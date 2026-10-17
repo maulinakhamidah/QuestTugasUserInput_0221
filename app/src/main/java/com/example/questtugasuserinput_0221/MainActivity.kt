@@ -35,10 +35,15 @@ class MainActivity : ComponentActivity() {
 }
 
 
-    ) { innerPadding ->
-        Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(innerPadding)
-        ) {
 
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth(0.92f)
+                    .align(Alignment.TopCenter)
+                    .offset(y = 10.dp),
+                shape = RoundedCornerShape(24.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = Color.White
+                ),
+                elevation = CardDefaults.cardElevation(defaultElevation = 8.dp)
+            ) {
