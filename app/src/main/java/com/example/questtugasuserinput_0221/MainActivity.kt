@@ -38,6 +38,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun UserInputScreen() {
 
-    var namaBelakang by remember { mutableStateOf("") }
+    var email by remember { mutableStateOf("") }
 
 
