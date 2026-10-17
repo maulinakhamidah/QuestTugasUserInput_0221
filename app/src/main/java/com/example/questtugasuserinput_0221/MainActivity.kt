@@ -20,16 +20,13 @@ import androidx.compose.ui.unit.sp
 
 
 
-                    Text(
-                        text = stringResource(id = R.string.form_title),
-                        fontSize = 24.sp,
-                        color = Color(0xFF4A148C),
-                        style = MaterialTheme.typography.titleLarge
-                    )
-                    Spacer(modifier = Modifier.height(2.dp))
-                    Text(
-                        text = stringResource(id = R.string.form_subtitle),
-                        fontSize = 13.sp,
-                        color = Color.DarkGray
-                    )
-
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        OutlinedTextField(
+                            value = namaDepan,
+                            onValueChange = { namaDepan = it },
+                            label = { Text("Nama Depan", color = Color.DarkGray) },
+                            modifier = Modifier.weight(1f),
+                            shape = RoundedCornerShape(12.dp)
