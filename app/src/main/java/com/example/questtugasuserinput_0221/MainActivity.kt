@@ -18,7 +18,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
         setContent {
             MaterialTheme {
                 Surface(
@@ -32,4 +34,4 @@ import androidx.compose.ui.unit.sp
     }
 }
 
-@}
+}
