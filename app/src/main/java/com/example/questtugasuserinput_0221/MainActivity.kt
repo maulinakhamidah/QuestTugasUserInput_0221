@@ -18,15 +18,27 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-
-
-
-
-                Image(
-                    painter = painterResource(id = R.drawable.spider_bg),
-                    contentDescription = "Background Spider",
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+            MaterialTheme {
+                Surface(
                     modifier = Modifier.fillMaxSize(),
-                    contentScale = ContentScale.Crop
-                )
+                    color = MaterialTheme.colorScheme.background
+                ) {
+                    UserInputScreen()
+                }
             }
         }
+    }
+}
+
+
+    ) { innerPadding ->
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(innerPadding)
+        ) {
+
