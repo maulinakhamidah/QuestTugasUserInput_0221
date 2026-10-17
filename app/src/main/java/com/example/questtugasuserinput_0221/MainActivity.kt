@@ -38,6 +38,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun UserInputScreen() {
 
-    var tglLahir by remember { mutableStateOf("") }
+    var experience by remember { mutableStateOf("") }
 
 
