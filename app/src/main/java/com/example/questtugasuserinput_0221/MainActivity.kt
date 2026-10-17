@@ -21,12 +21,12 @@ import androidx.compose.ui.unit.sp
 
 
 
-    Scaffold(
-        topBar = {
-            Box(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(140.dp)
-                    .background(Color(0xFF512DA8))
-            ) {
 
+                Image(
+                    painter = painterResource(id = R.drawable.spider_bg),
+                    contentDescription = "Background Spider",
+                    modifier = Modifier.fillMaxSize(),
+                    contentScale = ContentScale.Crop
+                )
+            }
+        }
